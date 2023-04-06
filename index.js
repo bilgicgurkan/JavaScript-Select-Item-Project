@@ -11,7 +11,7 @@ main.append(headerArea)
 const selectArea = document.createElement("div");
 selectArea.classList.add("select-area");
 
-// Mutlu hissi için avatar öğesi ekle
+// Mutlu 
 const happyAvatar = document.createElement("div");
 happyAvatar.classList.add("avatar-area");
 const happyImg = document.createElement("img");
@@ -23,7 +23,7 @@ happySpan.textContent = "Mutlu";
 happyAvatar.appendChild(happySpan);
 selectArea.appendChild(happyAvatar);
 
-// Üzgün hissi için avatar öğesi ekle
+// Üzgün
 const sadAvatar = document.createElement("div");
 sadAvatar.classList.add("avatar-area");
 const sadImg = document.createElement("img");
@@ -35,7 +35,7 @@ sadSpan.textContent = "Üzgün";
 sadAvatar.appendChild(sadSpan);
 selectArea.appendChild(sadAvatar);
 
-// Nötr hissi için avatar öğesi ekle
+// Nötr
 const neutralAvatar = document.createElement("div");
 neutralAvatar.classList.add("avatar-area");
 const neutralImg = document.createElement("img");
@@ -47,8 +47,7 @@ neutralSpan.textContent = "Nötr";
 neutralAvatar.appendChild(neutralSpan);
 selectArea.appendChild(neutralAvatar);
 
-// selectArea öğesini belirtilen hedef öğeye ekle
-// const targetElement = document.getElementById("target");
+// selectArea öğesini ana öğeye ekle
 main.appendChild(selectArea);
 
 const emoji = document.querySelectorAll(".avatar-area");
