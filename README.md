@@ -8,7 +8,7 @@
 
 > <sub> Bir emoji seçilmişse, aynı emoji bir daha basılarak seçim iptal edilebilir. </sub>
 
-Localimde ayağa kaldırdığım projenin videosunu YouTube üzerinden izleyebilirsiniz.
+<sub> Localimde ayağa kaldırdığım projenin videosunu YouTube üzerinden izleyebilirsiniz. </sub>
 
 > <sub> https://www.youtube.com/watch?v=eHv4EZEIeH4 </sub>
 
