@@ -1,20 +1,18 @@
-body,
-html {
+body {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
-}
-
-.main-area {
     border: 1px solid #000;
-    width: 500px;
-    padding: 5px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    font-size: xx-large;
 }
 
-.header-area {
+body,
+html {
+    height: 100%;
     border: 1px solid #000;
 }
 
@@ -24,4 +22,47 @@ html {
     justify-content: center;
     align-items: center;
     /* height: 100%; */
+    border: 1px solid #00000033;
+    width: 75%;
+    padding: 5px;
+    box-shadow: 10px 10px #000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.header-area {
+    padding: 5px;
+    box-shadow: 7px 5px 3px 1px #000;
+    border-radius: 3px;
+}
+
+.select-area {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 40px;
+    width: 50%;
+    justify-content: center;
+}
+
+.avatar-area {
+    /* border: 1px solid #000; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #0000002f;
+}
+
+.avatar-area:hover,
+.avatar-area.active {
+    background-image: linear-gradient(to right top, #ffffff, #eee8f2, #e3d0e1, #dcb7ca, #d69fae, #d69fae, #d69fae, #d69fae, #dcb7ca, #e3d0e1, #eee8f2, #ffffff);
+}
+
+.avatar-area img {
+    width: 45px;
+
 }
